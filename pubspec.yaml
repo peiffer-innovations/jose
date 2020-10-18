@@ -4,13 +4,19 @@ version: 0.2.1+1
 homepage: https://github.com/appsup-dart/jose
 
 environment:
-  sdk: '>=2.5.0 <3.0.0'
+  sdk: ">=2.5.0 <3.0.0"
 
 dependencies:
-  crypto_keys: ^0.1.3
+  crypto_keys:
+    git:
+      url: git@github.com:peiffer-innovations/crypto_keys
+      ref: 508d77ef3b3011b4c07b52e07479289a01096c05
   meta: ^1.1.6
   typed_data: ^1.0.0
-  x509: ^0.1.2+1
+  x509:
+    git:
+      url: git@github.com:peiffer-innovations/x509
+      ref: 66565e8a9f6f173af0a0f53c62f63d2bb5cabc6f
   http_extensions_cache: ^0.1.3
   http_extensions: ^0.1.2
   http: ^0.12.0
@@ -19,4 +25,3 @@ dependencies:
 dev_dependencies:
   test: ^1.0.0
   pedantic: ^1.9.0
-
