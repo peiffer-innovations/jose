@@ -9,14 +9,14 @@ environment:
 dependencies:
   crypto_keys:
     git:
-      url: git@github.com:peiffer-innovations/crypto_keys
+      url: https://github.com/peiffer-innovations/crypto_keys
       ref: 508d77ef3b3011b4c07b52e07479289a01096c05
   meta: ^1.1.6
   typed_data: ^1.0.0
   x509:
     git:
-      url: git@github.com:peiffer-innovations/x509
-      ref: 66565e8a9f6f173af0a0f53c62f63d2bb5cabc6f
+      url: https://github.com/peiffer-innovations/x509
+      ref: ce50e04e9ff319eebd70954547d19309701fe796
   http_extensions_cache: ^0.1.3
   http_extensions: ^0.1.2
   http: ^0.12.0
